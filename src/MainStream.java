@@ -16,6 +16,8 @@ public class MainStream {
         basicStreamTesting();
 
         testingStreamIterate();
+
+        lamdaWithFunctionInterfaceTest();
     }
 
     public static void basicStreamTesting() {
@@ -62,8 +64,16 @@ public class MainStream {
         System.out.println("streamTesting with flat map Done!");
     }
 
-    public static void streamTestingWithAFunctionalInterface() {
+    public static void lamdaWithFunctionInterfaceTest() {
+        System.out.println("lamdaWithFunctionInterfaceTest testing...");
 
+        String coolString = "Aid";
+
+        MyFirstFuncInterface interfaceImpl = s -> "Cool " + s;
+
+        System.out.println(interfaceImpl.getCoolString(coolString));
+
+        System.out.println("lamdaWithFunctionInterfaceTest testing Done!");
     }
 
 
