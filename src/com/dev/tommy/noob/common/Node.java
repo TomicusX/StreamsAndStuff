@@ -1,4 +1,4 @@
-package com.dev.tommy.common;
+package com.dev.tommy.noob.common;
 
 public class Node {
     public String data;

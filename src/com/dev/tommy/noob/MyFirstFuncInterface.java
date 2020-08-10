@@ -1,3 +1,5 @@
+package com.dev.tommy.noob;
+
 @FunctionalInterface
 public interface MyFirstFuncInterface {
 

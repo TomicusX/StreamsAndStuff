@@ -1,6 +1,6 @@
-package com.dev.tommy.main;
+package com.dev.tommy.noob.main;
 
-import com.dev.tommy.queue.BasicFIFOQueue;
+import com.dev.tommy.noob.queue.BasicFIFOQueue;
 
 public class QueueMain {
 

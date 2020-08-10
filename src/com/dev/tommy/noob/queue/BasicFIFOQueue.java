@@ -1,6 +1,6 @@
-package com.dev.tommy.queue;
+package com.dev.tommy.noob.queue;
 
-import com.dev.tommy.common.Node;
+import com.dev.tommy.noob.common.Node;
 
 public class BasicFIFOQueue {
 
